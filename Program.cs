@@ -16,7 +16,7 @@
             decimal sum = 0;
             foreach (var item in list)
             {
-                Console.WriteLine(item.ToString());
+                Console.WriteLine(item);
                 sum += item.GetValue();
             }
             Console.WriteLine($"Total: {sum}");
